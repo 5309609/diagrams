@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-09T00:50:21.504Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3883.400 QQBrowser/10.8.4559.400" etag="plTLBfl2CLN91aRygit6" version="17.4.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-04-09T00:53:58.724Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3883.400 QQBrowser/10.8.4559.400" etag="PdGPP2TKNbvYR1iczM8R" version="17.4.1" type="github" pages="2">
   <diagram id="SPryIYpsjw8ReC2oxJ1D" name="系统接入申请">
     <mxGraphModel dx="2329" dy="612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -144,7 +144,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="u-PxxDbpQcnC8XoLrh4K" name="自助查询">
-    <mxGraphModel dx="1502" dy="612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2329" dy="612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -579,6 +579,48 @@
             <mxPoint x="60" y="219" as="sourcePoint" />
             <mxPoint x="800" y="215" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="6wrDezF2xjn0FdesIQgl-3" value="根据部门编码统计查询" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="104" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6wrDezF2xjn0FdesIQgl-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EwAFlvkXxYl7o3pyVqEa-5" target="6wrDezF2xjn0FdesIQgl-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6wrDezF2xjn0FdesIQgl-5" value="根据系统简码统计查询" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="332" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6wrDezF2xjn0FdesIQgl-6" value="根据供应商编码统计查询" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="515" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6wrDezF2xjn0FdesIQgl-7" value="根据接口编码统计查询" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="695" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6wrDezF2xjn0FdesIQgl-8" value="天为基本单位，可根据任意时间段筛选查询" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="155" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6wrDezF2xjn0FdesIQgl-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EwAFlvkXxYl7o3pyVqEa-9" target="6wrDezF2xjn0FdesIQgl-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6wrDezF2xjn0FdesIQgl-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EwAFlvkXxYl7o3pyVqEa-6" target="6wrDezF2xjn0FdesIQgl-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6wrDezF2xjn0FdesIQgl-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EwAFlvkXxYl7o3pyVqEa-12" target="6wrDezF2xjn0FdesIQgl-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6wrDezF2xjn0FdesIQgl-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EwAFlvkXxYl7o3pyVqEa-147" target="6wrDezF2xjn0FdesIQgl-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6wrDezF2xjn0FdesIQgl-13" value="查询条件下的统计数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="240" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6wrDezF2xjn0FdesIQgl-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EwAFlvkXxYl7o3pyVqEa-149" target="6wrDezF2xjn0FdesIQgl-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6wrDezF2xjn0FdesIQgl-15" value="下载查询后表格" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="860" y="235" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6wrDezF2xjn0FdesIQgl-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EwAFlvkXxYl7o3pyVqEa-145" target="6wrDezF2xjn0FdesIQgl-15">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
